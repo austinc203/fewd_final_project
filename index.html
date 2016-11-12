@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Unanimous Verdict</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+		<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>Unanimous Verdict</h1>
+				<h2>State Your Case, and Let the Jury Decide</h2>
+			</header>
+			<section id="hero">
+
+				<div class="heading">
+					<h2>Plantiff's Case</h2>
+				</div>
+				<div class="heading">
+					<h2>Defendant's Case</h2>
+				</div>
+
+				<div id="arguments">
+					<input type = "text"
+									id = "plantiff"
+									value = ""
+									rows = "10"
+									columns = "80"/>
+					<input type = "text"
+									id = "defendant"
+									value = ""
+									rows = "10"
+									columns = "80"/>
+
+					</div>
+
+
+					<div class="post">
+						<span id="plantiffArgue" class="postDisplay"></span>
+						<span id="defendantArgue" class="postDisplay"></span>
+					</div>
+
+					<div class="submitDiv">
+						<button id="plantiffPost" class="submitButton">Plantiff Submit</button>
+					</div>
+					<div class="submitDiv">
+						<button id="defendantPost" class="submitButton">Defendant Submit</button>
+					</div>
+					<h2 id="verdict" class="hide">Has the Jury Reached a Verdict?</h2>
+
+					<div id="agree">
+					</div>
+					<div id="disagree">
+					</div>
+
+
+
+					<button id="guilty" class="hide">GUILTY</button>
+					<button id="notGuilty" class="hide">NOT GUILTY</button>
+
+			</section>
+			<footer>
+			</footer>
+		</div><!-- #container -->
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
